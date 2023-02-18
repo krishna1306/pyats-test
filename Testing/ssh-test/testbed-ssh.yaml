@@ -1,0 +1,19 @@
+# Step 0: list of devices
+devices:
+  Test-IOS:
+    # Step 1: OS and Type
+    os: 'ios'
+    # Step 2: credentials
+    credentials:
+      default:
+        username: cisco
+        password: cisco
+    # Step 3: connection parameters
+    connections:
+      defaults:
+        class: 'unicon.Unicon'
+      custom:
+        protocol: ssh
+        ip: '192.168.101.160'
+        port: 22
+        ssh_options: -o KexAlgorithms=+diffie-hellman-group14-sha1 -o HostkeyAlgorithms=+ssh-rsa
