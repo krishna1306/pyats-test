@@ -35,5 +35,4 @@ Python: 3.10.10 [64bit]
 Points to note:
 
 1. `hostname` in the testbed file must match with actual device hostname
-2. If your SSH connection needs options (old encryption or key-exchange algorithms etc.,), you must use `custom` block with `ssh-options` key (Check `/Testing/ssh-test/testbed-ssh.yaml` for example) 
-
+2. If your SSH connection needs options (old encryption or key-exchange algorithms etc.,), you must use `custom` block with `ssh-options` key (Check `/Testing/ssh-test/testbed-ssh.yaml` for example)
